@@ -372,6 +372,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "KeyBindBoostOnKeyPressed",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyBindBoost",
+      "type": "keybind",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -389,6 +413,7 @@
       "block.laundrysmiscmod.blocklimestonebrickslab": "Limestone Brick Slab",
       "itemGroup.tabtablaundryblocks": "Laundry\u0027s Blocks",
       "item.laundrysmiscmod.itemfossilefragment": "Fossile Fragment",
+      "key.mcreator.keybindboost": "Boost",
       "block.laundrysmiscmod.blockquicklime": "Quicklime",
       "block.laundrysmiscmod.blocklimestone": "Limestone",
       "block.laundrysmiscmod.blocklimestonebrickstairs": "Limestone Brick Stairs",

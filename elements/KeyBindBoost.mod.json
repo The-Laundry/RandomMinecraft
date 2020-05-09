@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Y",
+    "keyBindingName": "Boost",
+    "onKeyPressed": {
+      "name": "KeyBindBoostOnKeyPressed"
+    }
+  }
+}
