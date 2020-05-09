@@ -1,32 +1,12 @@
 
 package net.mcreator.laundrysmiscmod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.item.ItemUseContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.laundrysmiscmod.procedures.ItemFossileFragmentRightClickedOnBlockProcedure;
-import net.mcreator.laundrysmiscmod.procedures.ItemFossileFragmentItemIsCraftedsmeltedProcedure;
-import net.mcreator.laundrysmiscmod.LaundrysMiscModElements;
-
-import com.google.common.collect.Multimap;
-
 @LaundrysMiscModElements.ModElement.Tag
 public class ItemFossileFragmentItem extends LaundrysMiscModElements.ModElement {
+
 	@ObjectHolder("laundrysmiscmod:itemfossilefragment")
 	public static final Item block = null;
+
 	public ItemFossileFragmentItem(LaundrysMiscModElements instance) {
 		super(instance, 27);
 	}
@@ -35,7 +15,9 @@ public class ItemFossileFragmentItem extends LaundrysMiscModElements.ModElement 
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64));
 			setRegistryName("itemfossilefragment");
@@ -86,6 +68,7 @@ public class ItemFossileFragmentItem extends LaundrysMiscModElements.ModElement 
 				$_dependencies.put("z", z);
 				$_dependencies.put("itemstack", itemstack);
 				$_dependencies.put("world", world);
+
 				ItemFossileFragmentRightClickedOnBlockProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
@@ -100,8 +83,11 @@ public class ItemFossileFragmentItem extends LaundrysMiscModElements.ModElement 
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+
 				ItemFossileFragmentItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 			}
 		}
+
 	}
+
 }

@@ -270,6 +270,30 @@
       }
     },
     {
+      "name": "BlockFragmentedFossile",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemFossileFragmentEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "ItemFossileFragmentItemIsCraftedsmelted",
       "type": "procedure",
       "sortid": 28,
@@ -294,25 +318,17 @@
       "ids": {}
     },
     {
-      "name": "ItemFossileFragmentEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "BlockFragmentedFossile",
+      "name": "BlockChiseledLimestone",
       "type": "block",
       "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeChiseledLimestone",
+      "type": "recipe",
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -323,14 +339,12 @@
   "language_map": {
     "en_us": {
       "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
-      "block.laundrysmiscmod.blockfragmentedfossile": "Block Fragmented Fossile",
       "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
       "block.laundrysmiscmod.blocklimestonebricks": "Block Limestone Bricks",
       "block.laundrysmiscmod.blocklimepowder": "Lime Powder",
       "block.laundrysmiscmod.blocklimestonechunks": "Limestone Chunks",
       "block.laundrysmiscmod.blocklimestonebrickslab": "Limestone Brick Slab",
       "itemGroup.tabtablaundryblocks": "Laundry\u0027s Blocks",
-      "item.laundrysmiscmod.itemfossilefragment": "Fossile Fragment",
       "block.laundrysmiscmod.blockquicklime": "Quicklime",
       "block.laundrysmiscmod.blocklimestone": "Limestone",
       "block.laundrysmiscmod.blocklimestonebrickstairs": "Limestone Brick Stairs"
