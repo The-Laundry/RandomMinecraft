@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laundrysmiscmod:blocks/texturefragmentedfossile",
+    "up": "laundrysmiscmod:blocks/texturefragmentedfossile",
+    "north": "laundrysmiscmod:blocks/texturefragmentedfossile",
+    "east": "laundrysmiscmod:blocks/texturefragmentedfossile",
+    "south": "laundrysmiscmod:blocks/texturefragmentedfossile",
+    "west": "laundrysmiscmod:blocks/texturefragmentedfossile",
+    "particle": "laundrysmiscmod:blocks/texturefragmentedfossile"
+  }
+}
