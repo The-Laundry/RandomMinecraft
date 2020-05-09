@@ -2,6 +2,7 @@
 package net.mcreator.laundrysmiscmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -47,7 +48,8 @@ public class BlockQuicklimeBlock extends LaundrysMiscModElements.ModElement {
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).lightValue(0));
+			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).lightValue(0).harvestLevel(0)
+					.harvestTool(ToolType.SHOVEL));
 			setRegistryName("blockquicklime");
 		}
 

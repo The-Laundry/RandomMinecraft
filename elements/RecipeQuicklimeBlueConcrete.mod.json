@@ -37,7 +37,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.WOOL#0"
+      "value": "Blocks.CONCRETE_POWDER#11"
     },
     "name": "recipequicklimeblueconcrete",
     "namespace": "mod"

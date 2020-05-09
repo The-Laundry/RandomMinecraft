@@ -28,7 +28,7 @@
     "creativeTab": {
       "value": "CUSTOM:TabLaundryBlocks"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""

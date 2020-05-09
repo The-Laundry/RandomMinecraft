@@ -9,7 +9,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.DYE#16"
+        "value": "Items.DYE#7"
       },
       {
         "value": "CUSTOM:BlockQuicklime"
@@ -37,9 +37,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.CONCRETE_POWDER#15"
+      "value": "Blocks.CONCRETE_POWDER#8"
     },
-    "name": "recipequicklimeblackconcrete",
+    "name": "recipequicklimelightgreypowder",
     "namespace": "mod"
   }
 }
