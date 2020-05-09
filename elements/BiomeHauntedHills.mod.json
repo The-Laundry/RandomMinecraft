@@ -1,0 +1,84 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Haunted Hills",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#15"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Mega pine trees",
+    "minHeight": 17,
+    "spawnVines": true,
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeStem": {
+      "value": "Blocks.LOG2#1"
+    },
+    "treeBranch": {
+      "value": "Blocks.WOOL#15"
+    },
+    "treeFruits": {
+      "value": "Blocks.LIT_PUMPKIN"
+    },
+    "customColors": false,
+    "airColor": {
+      "value": -15005431,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16380150,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14937341,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 6,
+    "grassPerChunk": 5,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 5,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 4,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.3,
+    "spawnBiome": true,
+    "biomeWeight": 7,
+    "biomeType": "COOL",
+    "biomeCategory": "JUNGLE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [
+      "DENSE"
+    ],
+    "spawnList": [
+      {
+        "value": "EntityStray"
+      },
+      {
+        "value": "EntityHusk"
+      },
+      {
+        "value": "EntityArmorStand"
+      },
+      {
+        "value": "EntityVex"
+      },
+      {
+        "value": "EntityEndermite"
+      }
+    ]
+  }
+}

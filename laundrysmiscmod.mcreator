@@ -356,6 +356,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "StructureFossileDebris",
+      "type": "structure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BiomeHauntedHills",
+      "type": "biome",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -367,6 +383,7 @@
       "block.laundrysmiscmod.blockfossileblock": "Fossile Block",
       "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
       "block.laundrysmiscmod.blocklimestonebricks": "Block Limestone Bricks",
+      "biome.laundrysmiscmod.biomehauntedhills": "Haunted Hills",
       "block.laundrysmiscmod.blocklimepowder": "Lime Powder",
       "block.laundrysmiscmod.blocklimestonechunks": "Limestone Chunks",
       "block.laundrysmiscmod.blocklimestonebrickslab": "Limestone Brick Slab",
