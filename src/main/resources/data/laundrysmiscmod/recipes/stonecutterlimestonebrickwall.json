@@ -1,0 +1,9 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "laundrysmiscmod:blocklimestonebricks"
+  },
+  "result": "laundrysmiscmod:blocklimestonebrickwall"
+}

@@ -1,0 +1,33 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:blocklimestonebricks"
+    },
+    "3": {
+      "item": "laundrysmiscmod:blocklimestonebricks"
+    },
+    "4": {
+      "item": "laundrysmiscmod:blocklimestonebricks"
+    },
+    "6": {
+      "item": "laundrysmiscmod:blocklimestonebricks"
+    },
+    "7": {
+      "item": "laundrysmiscmod:blocklimestonebricks"
+    },
+    "8": {
+      "item": "laundrysmiscmod:blocklimestonebricks"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:blocklimestonebrickstairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "laundrysmiscmod:blocks/limestonebricks",
+    "top": "laundrysmiscmod:blocks/limestonebricks",
+    "side": "laundrysmiscmod:blocks/limestonebricks"
+  }
+}

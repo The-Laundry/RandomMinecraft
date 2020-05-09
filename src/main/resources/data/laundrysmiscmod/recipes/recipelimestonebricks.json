@@ -1,0 +1,26 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:blocklimestone"
+    },
+    "1": {
+      "item": "laundrysmiscmod:blocklimestone"
+    },
+    "2": {
+      "item": "laundrysmiscmod:blocklimestone"
+    },
+    "3": {
+      "item": "laundrysmiscmod:blocklimestone"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:blocklimestonebricks",
+    "count": 4
+  }
+}

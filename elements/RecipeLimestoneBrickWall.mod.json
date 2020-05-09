@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockLimestoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlockLimestoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlockLimestoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlockLimestoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlockLimestoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlockLimestoneBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockLimestoneBrickWall"
+    },
+    "name": "recipelimestonebrickwall",
+    "namespace": "mod"
+  }
+}

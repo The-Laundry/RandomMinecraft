@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "laundrysmiscmod:blocks/limestonechunks3",
+    "particle": "laundrysmiscmod:blocks/limestonechunks3"
+  }
+}

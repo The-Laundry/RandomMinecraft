@@ -1,0 +1,16 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laundrysmiscmod:blocklimepowder"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "laundrysmiscmod:blocklimestone",
+    "count": 1
+  }
+}

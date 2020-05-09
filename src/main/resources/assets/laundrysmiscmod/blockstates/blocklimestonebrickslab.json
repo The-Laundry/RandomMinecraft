@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "laundrysmiscmod:block/blocklimestonebrickslab"
+    },
+    "type=top": {
+      "model": "laundrysmiscmod:block/blocklimestonebrickslab_top"
+    },
+    "type=double": {
+      "model": "laundrysmiscmod:block/blocklimestonebrickslab_full"
+    }
+  }
+}

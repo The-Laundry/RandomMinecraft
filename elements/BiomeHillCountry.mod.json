@@ -1,0 +1,124 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Hill Country",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:BlockLimestone"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 2,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeStem": {
+      "value": "Blocks.LOG#0"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES#0"
+    },
+    "treeFruits": {
+      "value": "Blocks.BEE_NEST"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -8939728,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14329397,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 6,
+    "grassPerChunk": 2,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 3,
+    "gravelPatchesPerChunk": 2,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 1,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.22,
+    "spawnBiome": true,
+    "biomeWeight": 7,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [
+      "FOREST",
+      "HILLS"
+    ],
+    "spawnList": [
+      {
+        "value": "EntityBat"
+      },
+      {
+        "value": "EntityCow"
+      },
+      {
+        "value": "EntityDonkey"
+      },
+      {
+        "value": "EntityRabbit"
+      },
+      {
+        "value": "EntityFox"
+      },
+      {
+        "value": "EntityPig"
+      },
+      {
+        "value": "EntityChicken"
+      },
+      {
+        "value": "EntitySheep"
+      },
+      {
+        "value": "EntityHorse"
+      },
+      {
+        "value": "EntitySquid"
+      },
+      {
+        "value": "EntityCreeper"
+      },
+      {
+        "value": "EntitySkeleton"
+      },
+      {
+        "value": "EntityZombie"
+      },
+      {
+        "value": "EntityPhantom"
+      },
+      {
+        "value": "EntitySpider"
+      },
+      {
+        "value": "EntityEnderman"
+      },
+      {
+        "value": "EntityAnimal"
+      },
+      {
+        "value": "EntityMob"
+      }
+    ]
+  }
+}
