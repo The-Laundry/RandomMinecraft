@@ -332,6 +332,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "BlockFossileBlock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeFossileBlock",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeFossileFragment",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -340,6 +364,7 @@
     "en_us": {
       "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
       "block.laundrysmiscmod.blockfragmentedfossile": "Block Fragmented Fossile",
+      "block.laundrysmiscmod.blockfossileblock": "Fossile Block",
       "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
       "block.laundrysmiscmod.blocklimestonebricks": "Block Limestone Bricks",
       "block.laundrysmiscmod.blocklimepowder": "Lime Powder",

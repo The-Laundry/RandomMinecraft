@@ -1,0 +1,11 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "laundrysmiscmod:blockfragmentedfossile"
+  },
+  "result": {
+    "item": "laundrysmiscmod:itemfossilefragment"
+  }
+}
