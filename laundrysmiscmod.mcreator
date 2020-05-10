@@ -990,6 +990,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "EntityWonderer",
+      "type": "mob",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1014,6 +1022,7 @@
       "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
       "itemGroup.tabthelaundrytools": "The_Laundry Tools",
       "item.laundrysmiscmod.dunearmorboots": "Dune Boots",
+      "item.laundrysmiscmod.entitywonderer": "Entity Wonderer Spawn Egg",
       "item.laundrysmiscmod.rootpickaxe": "Root Pickaxe",
       "item.laundrysmiscmod.fossilepickaxe": "Fossile Pickaxe",
       "item.laundrysmiscmod.fossileshovel": "Fossile Shovel",
@@ -1025,6 +1034,7 @@
       "item.laundrysmiscmod.fossileaxe": "Fossile Axe",
       "block.laundrysmiscmod.rootoreblock": "Block of Root",
       "block.laundrysmiscmod.rootore": "Root",
+      "entity.laundrysmiscmod.entitywonderer": "Entity Wonderer",
       "block.laundrysmiscmod.blockquicklime": "Quicklime",
       "block.laundrysmiscmod.blocklimestone": "Limestone",
       "item.laundrysmiscmod.roothoe": "Root Hoe",
