@@ -1,0 +1,30 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "1": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "2": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:fossilepickaxe",
+    "count": 1
+  }
+}

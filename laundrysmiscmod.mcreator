@@ -396,28 +396,189 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "LivingEntityCrawlerRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LivingEntityCrawler",
+      "type": "mob",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossilePickaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileSword",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileShovel",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileHoe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossilePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileAxeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileSwordRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileShovelRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FossileHoeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemArmor",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ItemArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
-      "block.laundrysmiscmod.blockfragmentedfossile": "Block Fragmented Fossile",
       "block.laundrysmiscmod.blockfossileblock": "Fossile Block",
-      "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
+      "item.laundrysmiscmod.itemarmorbody": "Fossile Chestplate",
       "block.laundrysmiscmod.blocklimestonebricks": "Block Limestone Bricks",
       "biome.laundrysmiscmod.biomehauntedhills": "Haunted Hills",
       "block.laundrysmiscmod.blocklimepowder": "Lime Powder",
       "block.laundrysmiscmod.blocklimestonechunks": "Limestone Chunks",
+      "item.laundrysmiscmod.itemarmorlegs": "Fossile Leggings",
+      "entity.laundrysmiscmod.livingentitycrawler": "Crawler",
+      "key.mcreator.keybindboost": "Boost",
+      "item.laundrysmiscmod.itemfossilefragment": "Fossile Fragment",
+      "block.laundrysmiscmod.blockchiseledlimestone": "Chiseled Limestone Bricks",
+      "item.laundrysmiscmod.livingentitycrawler": "Crawler Spawn Egg",
+      "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
+      "block.laundrysmiscmod.blockfragmentedfossile": "Block Fragmented Fossile",
+      "item.laundrysmiscmod.fossilehoe": "Fossile Hoe",
+      "item.laundrysmiscmod.itemarmorhelmet": "Fossile Helmet",
+      "item.laundrysmiscmod.fossilepickaxe": "Fossile Pickaxe",
+      "item.laundrysmiscmod.fossilesword": "Fossile Sword",
+      "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
+      "item.laundrysmiscmod.fossileshovel": "Fossile Shovel",
+      "item.laundrysmiscmod.itemarmorboots": "Fossile Boots",
+      "item.laundrysmiscmod.fossileaxe": "Fossile Axe",
       "block.laundrysmiscmod.blocklimestonebrickslab": "Limestone Brick Slab",
       "itemGroup.tabtablaundryblocks": "Laundry\u0027s Blocks",
-      "item.laundrysmiscmod.itemfossilefragment": "Fossile Fragment",
-      "key.mcreator.keybindboost": "Boost",
       "block.laundrysmiscmod.blockquicklime": "Quicklime",
       "block.laundrysmiscmod.blocklimestone": "Limestone",
-      "block.laundrysmiscmod.blocklimestonebrickstairs": "Limestone Brick Stairs",
-      "block.laundrysmiscmod.blockchiseledlimestone": "Chiseled Limestone Bricks"
+      "block.laundrysmiscmod.blocklimestonebrickstairs": "Limestone Brick Stairs"
     }
   },
   "workspaceSettings": {

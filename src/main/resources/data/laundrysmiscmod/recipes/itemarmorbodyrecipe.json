@@ -1,0 +1,39 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "2": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "3": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "4": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "5": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "6": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "7": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    },
+    "8": {
+      "item": "laundrysmiscmod:itemfossilefragment"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:itemarmorbody",
+    "count": 1
+  }
+}
