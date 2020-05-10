@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "The_Laundry Tools",
+    "icon": {
+      "value": "CUSTOM:FossilePickaxe"
+    },
+    "showSearch": false
+  }
+}

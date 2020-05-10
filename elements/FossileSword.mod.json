@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Fossile Sword",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:TabTheLaundryArmour"
     },
     "toolType": "Sword",
     "harvestLevel": 6,

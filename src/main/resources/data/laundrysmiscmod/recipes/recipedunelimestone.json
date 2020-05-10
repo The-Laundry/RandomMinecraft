@@ -1,0 +1,16 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "item": "laundrysmiscmod:blocklimestone",
+    "count": 1
+  }
+}

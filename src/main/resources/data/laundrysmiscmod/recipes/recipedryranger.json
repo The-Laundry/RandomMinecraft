@@ -1,0 +1,33 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "1": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "2": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "4": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "6": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "7": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:dryranger",
+    "count": 1
+  }
+}

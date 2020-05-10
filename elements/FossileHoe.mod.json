@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Fossile Hoe",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheLaundryTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 6,

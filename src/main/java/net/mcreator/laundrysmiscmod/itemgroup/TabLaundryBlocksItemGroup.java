@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.laundrysmiscmod.block.BlockLimestoneBlock;
+import net.mcreator.laundrysmiscmod.block.BlockChiseledLimestoneBlock;
 import net.mcreator.laundrysmiscmod.LaundrysMiscModElements;
 
 @LaundrysMiscModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class TabLaundryBlocksItemGroup extends LaundrysMiscModElements.ModElemen
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(BlockLimestoneBlock.block, (int) (1));
+				return new ItemStack(BlockChiseledLimestoneBlock.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

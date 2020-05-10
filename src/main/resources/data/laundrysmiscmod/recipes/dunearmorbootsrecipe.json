@@ -1,0 +1,26 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "2": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "3": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "5": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:dunearmorboots",
+    "count": 1
+  }
+}

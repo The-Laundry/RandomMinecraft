@@ -546,39 +546,496 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DuneStoneOre",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneStoneOreBlock",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneStoneIngot",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneStoneOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneStoneBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneStoneOreSmelting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DunePickaxe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneAxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneSword",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneShovel",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneHoe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DunePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneAxeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneSwordRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneShovelRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneHoeRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneArmor",
+      "type": "armor",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DuneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DuneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeDuneDust",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheLaundryTools",
+      "type": "tab",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TabTheLaundryArmour",
+      "type": "tab",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootOre",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootOreBlock",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootIngot",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootOreSmelting",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootPickaxe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootAxe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootSword",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootShovel",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootHoe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootAxeRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootSwordRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootShovelRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootHoeRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootArmor",
+      "type": "armor",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RootArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RootArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheDry",
+      "type": "dimension",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemDryKey",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeTheDryKey",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DryRangerRangedItemUsed",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DryRanger",
+      "type": "gun",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecipeDryRanger",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.laundrysmiscmod.dunestoneoreblock": "Block of DuneStone",
+      "item.laundrysmiscmod.dunearmorbody": "Dune Chestplate",
+      "item.laundrysmiscmod.duneaxe": "Dune Axe",
+      "item.laundrysmiscmod.dunearmorlegs": "Dune Leggings",
       "block.laundrysmiscmod.blockfossileblock": "Fossile Block",
-      "item.laundrysmiscmod.itemarmorbody": "Fossile Chestplate",
+      "item.laundrysmiscmod.dunestoneingot": "DuneStone",
+      "item.laundrysmiscmod.itemdrykey": "Dry Key",
+      "item.laundrysmiscmod.rootaxe": "Root Axe",
       "block.laundrysmiscmod.blocklimestonebricks": "Block Limestone Bricks",
-      "biome.laundrysmiscmod.biomehauntedhills": "Haunted Hills",
-      "block.laundrysmiscmod.blocklimepowder": "Lime Powder",
+      "item.laundrysmiscmod.rootshovel": "Root Shovel",
       "block.laundrysmiscmod.blocklimestonechunks": "Limestone Chunks",
+      "item.laundrysmiscmod.dunesword": "Dune Sword",
       "item.laundrysmiscmod.itemfossilefragment": "Fossile Fragment",
       "key.mcreator.keybindboost": "Boost",
       "entity.laundrysmiscmod.livingentitycrawler": "Crawler",
+      "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
+      "itemGroup.tabthelaundrytools": "The_Laundry Tools",
+      "item.laundrysmiscmod.dunearmorboots": "Dune Boots",
+      "item.laundrysmiscmod.rootpickaxe": "Root Pickaxe",
+      "item.laundrysmiscmod.fossilepickaxe": "Fossile Pickaxe",
+      "item.laundrysmiscmod.fossileshovel": "Fossile Shovel",
+      "item.laundrysmiscmod.itemarmorboots": "Fossile Boots",
+      "item.laundrysmiscmod.rootarmorboots": "Root Boots",
+      "block.laundrysmiscmod.dunestoneore": "DuneStone Ore",
+      "item.laundrysmiscmod.rootarmorhelmet": "Root Helmet",
+      "item.laundrysmiscmod.thedry": "Dry Key",
+      "item.laundrysmiscmod.fossileaxe": "Fossile Axe",
+      "block.laundrysmiscmod.rootoreblock": "Block of Root",
+      "block.laundrysmiscmod.rootore": "Root",
+      "block.laundrysmiscmod.blockquicklime": "Quicklime",
+      "block.laundrysmiscmod.blocklimestone": "Limestone",
+      "item.laundrysmiscmod.roothoe": "Root Hoe",
+      "item.laundrysmiscmod.rootingot": "Root",
+      "itemGroup.tabtabthelaundryarmour": "Tab The Laundry Combat",
+      "item.laundrysmiscmod.itemarmorbody": "Fossile Chestplate",
+      "item.laundrysmiscmod.dryranger": "Dry Ranger",
+      "item.laundrysmiscmod.dunehoe": "Dune Hoe",
+      "biome.laundrysmiscmod.biomehauntedhills": "Haunted Hills",
+      "block.laundrysmiscmod.blocklimepowder": "Lime Powder",
       "item.laundrysmiscmod.itemarmorlegs": "Fossile Leggings",
       "block.laundrysmiscmod.blockchiseledlimestone": "Chiseled Limestone Bricks",
       "item.laundrysmiscmod.livingentitycrawler": "Crawler Spawn Egg",
-      "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
       "block.laundrysmiscmod.blockfragmentedfossile": "Block Fragmented Fossile",
+      "item.laundrysmiscmod.duneshovel": "Dune Shovel",
       "item.laundrysmiscmod.fossilehoe": "Fossile Hoe",
+      "item.laundrysmiscmod.dunearmorhelmet": "Dune Helmet",
       "item.laundrysmiscmod.itemarmorhelmet": "Fossile Helmet",
-      "item.laundrysmiscmod.fossilepickaxe": "Fossile Pickaxe",
       "item.laundrysmiscmod.fossilesword": "Fossile Sword",
       "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
-      "item.laundrysmiscmod.fossileshovel": "Fossile Shovel",
-      "item.laundrysmiscmod.itemarmorboots": "Fossile Boots",
-      "item.laundrysmiscmod.fossileaxe": "Fossile Axe",
+      "item.laundrysmiscmod.rootarmorbody": "Root Chestplate",
+      "item.laundrysmiscmod.dunepickaxe": "Dune Pickaxe",
       "block.laundrysmiscmod.blocklimestonebrickslab": "Limestone Brick Slab",
       "itemGroup.tabtablaundryblocks": "Laundry\u0027s Blocks",
-      "block.laundrysmiscmod.blockquicklime": "Quicklime",
-      "block.laundrysmiscmod.blocklimestone": "Limestone",
-      "block.laundrysmiscmod.blocklimestonebrickstairs": "Limestone Brick Stairs"
+      "item.laundrysmiscmod.rootarmorlegs": "Root Leggings",
+      "block.laundrysmiscmod.blocklimestonebrickstairs": "Limestone Brick Stairs",
+      "item.laundrysmiscmod.rootsword": "Root Sword"
     }
   },
   "workspaceSettings": {

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Laundry's Blocks",
     "icon": {
-      "value": "CUSTOM:BlockLimestone"
+      "value": "CUSTOM:BlockChiseledLimestone"
     },
     "showSearch": false
   }

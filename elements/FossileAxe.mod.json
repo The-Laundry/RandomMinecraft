@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Fossile Axe",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheLaundryTools"
     },
     "toolType": "Axe",
     "harvestLevel": 6,

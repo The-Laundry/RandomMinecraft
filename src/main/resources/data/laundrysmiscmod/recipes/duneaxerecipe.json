@@ -1,0 +1,30 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "1": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "2": {
+      "item": "laundrysmiscmod:dunestoneingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:duneaxe",
+    "count": 1
+  }
+}

@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Fossile Pickaxe",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheLaundryTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

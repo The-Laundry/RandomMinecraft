@@ -1,0 +1,13 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laundrysmiscmod:rootoreblock"
+    }
+  ],
+  "result": {
+    "item": "laundrysmiscmod:rootingot",
+    "count": 9
+  }
+}

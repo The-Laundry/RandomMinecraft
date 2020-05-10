@@ -1,0 +1,11 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "ingredient": {
+    "item": "laundrysmiscmod:dunestoneore"
+  },
+  "result": {
+    "item": "laundrysmiscmod:dunestoneingot"
+  }
+}

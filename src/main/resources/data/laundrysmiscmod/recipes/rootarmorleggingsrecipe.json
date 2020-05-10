@@ -1,0 +1,36 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "1": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "2": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "3": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "5": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "6": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "8": {
+      "item": "laundrysmiscmod:rootingot"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:rootarmorlegs",
+    "count": 1
+  }
+}

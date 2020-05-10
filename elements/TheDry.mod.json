@@ -1,0 +1,62 @@
+{
+  "_fv": 6,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:BlockLimestone"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.1,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Dry Key",
+    "igniterTab": {
+      "value": "CUSTOM:TheLaundryTools"
+    },
+    "texture": "texturethedrykey",
+    "portalTexture": "thedry",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:BiomeHillCountry"
+      },
+      {
+        "value": "CUSTOM:BiomeHauntedHills"
+      },
+      {
+        "value": "desert"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.SANDSTONE#1"
+    },
+    "secondaryFillerBlock": {
+      "value": "CUSTOM:BlockLimestone"
+    },
+    "tertiaryFillerBlock": {
+      "value": "Blocks.DIRT#2"
+    },
+    "fluidBlock": {
+      "value": "Blocks.LAVA"
+    },
+    "airColor": {
+      "value": -16053493,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "dimensionMusic": {
+      "value": ""
+    }
+  }
+}

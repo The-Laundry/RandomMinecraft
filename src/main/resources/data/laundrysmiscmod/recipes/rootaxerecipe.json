@@ -1,0 +1,30 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "1": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "2": {
+      "item": "laundrysmiscmod:rootingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "laundrysmiscmod:rootaxe",
+    "count": 1
+  }
+}

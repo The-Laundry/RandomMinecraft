@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "laundrysmiscmod:blocks/acacia_log",
+    "particle": "laundrysmiscmod:blocks/acacia_log"
+  }
+}

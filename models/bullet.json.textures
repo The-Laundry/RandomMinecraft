@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "limestone2",
+        "missing": "limestone2"
+      },
+      "name": "default"
+    }
+  }
+}

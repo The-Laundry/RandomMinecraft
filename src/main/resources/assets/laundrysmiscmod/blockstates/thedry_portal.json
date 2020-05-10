@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "laundrysmiscmod:block/thedry_portal_ew"
+    },
+    "axis=x": {
+      "model": "laundrysmiscmod:block/thedry_portal_ns"
+    }
+  }
+}

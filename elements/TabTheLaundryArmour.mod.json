@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Tab The Laundry Combat",
+    "icon": {
+      "value": "CUSTOM:DuneSword"
+    },
+    "showSearch": false
+  }
+}

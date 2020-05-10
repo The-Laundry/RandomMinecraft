@@ -1,0 +1,13 @@
+{
+  "group": "laundrysmiscmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "laundrysmiscmod:dunestoneoreblock"
+    }
+  ],
+  "result": {
+    "item": "laundrysmiscmod:dunestoneingot",
+    "count": 9
+  }
+}

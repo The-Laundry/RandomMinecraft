@@ -1,0 +1,38 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "texturedryranger",
+    "customModelName": "Normal",
+    "name": "Dry Ranger",
+    "creativeTab": {
+      "value": "CUSTOM:TabTheLaundryArmour"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 10,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:DuneStoneOreBlock"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onRangedItemUsed": {
+      "name": "DryRangerRangedItemUsed"
+    }
+  }
+}

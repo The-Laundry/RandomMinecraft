@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Fossile Shovel",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TheLaundryTools"
     },
     "toolType": "Spade",
     "harvestLevel": 6,
