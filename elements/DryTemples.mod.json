@@ -1,0 +1,76 @@
+{
+  "_fv": 6,
+  "_type": "loottable",
+  "definition": {
+    "type": "Chest",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 35,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:ItemFossileFragment"
+            },
+            "weight": 12
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DIAMOND"
+            },
+            "weight": 6
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SKULL#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.ENCHANTED_BOOK"
+            },
+            "weight": 6
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.MILK_BUCKET"
+            },
+            "weight": 8
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.IRON_INGOT"
+            },
+            "weight": 12
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.OBSIDIAN"
+            },
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "name": "drytemples",
+    "namespace": "mod"
+  }
+}

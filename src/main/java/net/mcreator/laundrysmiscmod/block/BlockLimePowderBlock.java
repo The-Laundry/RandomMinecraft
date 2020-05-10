@@ -4,9 +4,14 @@ package net.mcreator.laundrysmiscmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Hand;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FallingBlock;
@@ -45,6 +50,15 @@ public class BlockLimePowderBlock extends LaundrysMiscModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@Override
+		public boolean onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand, BlockRayTraceResult hit) {
+			boolean retval = super.onBlockActivated(state, world, pos, entity, hand, hit);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return true;
 		}
 	}
 }
