@@ -23,7 +23,7 @@ public class RootShovelItem extends LaundrysMiscModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 183;
+				return 30;
 			}
 
 			public float getEfficiency() {

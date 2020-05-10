@@ -23,7 +23,7 @@ public class RootPickaxeItem extends LaundrysMiscModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 183;
+				return 30;
 			}
 
 			public float getEfficiency() {

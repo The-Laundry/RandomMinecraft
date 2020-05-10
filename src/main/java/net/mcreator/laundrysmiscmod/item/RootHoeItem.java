@@ -23,7 +23,7 @@ public class RootHoeItem extends LaundrysMiscModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 183;
+				return 100;
 			}
 
 			public float getEfficiency() {
