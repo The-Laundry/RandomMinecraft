@@ -107,8 +107,34 @@ public class RootOreBlock extends LaundrysMiscModElements.ModElement {
 					blockCriteria = true;
 				if (blockAt.getBlock() == Blocks.DARK_OAK_WOOD.getDefaultState().getBlock())
 					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.DIRT.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.STRIPPED_OAK_LOG.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.STRIPPED_SPRUCE_LOG.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.STRIPPED_BIRCH_LOG.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.STRIPPED_JUNGLE_LOG.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.STRIPPED_ACACIA_LOG.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.STRIPPED_DARK_OAK_LOG.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.GRASS_PATH.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.MYCELIUM.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.DIRT.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.COARSE_DIRT.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.PODZOL.getDefaultState().getBlock())
+					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 8), Placement.COUNT_RANGE, new CountRangeConfig(13, 60, 60, 200)));
+			}), block.getDefaultState(), 8), Placement.COUNT_RANGE, new CountRangeConfig(20, 1, 1, 100)));
 		}
 	}
 }

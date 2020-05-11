@@ -36,11 +36,11 @@ public class RootArmorItem extends LaundrysMiscModElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 12;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 8;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 4, 2}[slot.getIndex()];
+				return new int[]{2, 2, 2, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -52,7 +52,7 @@ public class RootArmorItem extends LaundrysMiscModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(RootIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class RootArmorItem extends LaundrysMiscModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 0.1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(TabTheLaundryArmourItemGroup.tab)) {

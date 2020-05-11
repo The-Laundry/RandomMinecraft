@@ -23,7 +23,7 @@ public class RootAxeItem extends LaundrysMiscModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 183;
+				return 30;
 			}
 
 			public float getEfficiency() {

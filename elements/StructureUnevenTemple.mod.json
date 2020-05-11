@@ -1,0 +1,36 @@
+{
+  "_fv": 6,
+  "_type": "structure",
+  "definition": {
+    "structure": "uneventemple",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Air",
+    "spawnHeightOffset": 40,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:TheDry"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BiomeHillCountry"
+      },
+      {
+        "value": "CUSTOM:BiomeHauntedHills"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "desert_hills"
+      }
+    ]
+  }
+}
