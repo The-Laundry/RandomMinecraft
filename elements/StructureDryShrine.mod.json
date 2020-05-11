@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "structure",
+  "definition": {
+    "structure": "dry_shrine",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnWorldTypes": [
+      "CUSTOM:TheDry"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.SAND#0"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      }
+    ]
+  }
+}

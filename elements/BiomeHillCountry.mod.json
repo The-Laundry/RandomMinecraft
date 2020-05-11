@@ -66,36 +66,6 @@
     ],
     "spawnList": [
       {
-        "value": "EntityBat"
-      },
-      {
-        "value": "EntityCow"
-      },
-      {
-        "value": "EntityDonkey"
-      },
-      {
-        "value": "EntityRabbit"
-      },
-      {
-        "value": "EntityFox"
-      },
-      {
-        "value": "EntityPig"
-      },
-      {
-        "value": "EntityChicken"
-      },
-      {
-        "value": "EntitySheep"
-      },
-      {
-        "value": "EntityHorse"
-      },
-      {
-        "value": "EntitySquid"
-      },
-      {
         "value": "EntityCreeper"
       },
       {
@@ -109,9 +79,6 @@
       },
       {
         "value": "EntityEnderman"
-      },
-      {
-        "value": "EntityAnimal"
       },
       {
         "value": "EntityMob"

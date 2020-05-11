@@ -1,14 +1,52 @@
 
 package net.mcreator.laundrysmiscmod.entity;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.network.FMLPlayMessages;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.common.DungeonHooks;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.gen.Heightmap;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.DamageSource;
+import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.entity.ai.goal.RandomWalkingGoal;
+import net.minecraft.entity.ai.goal.PanicGoal;
+import net.minecraft.entity.ai.goal.LookRandomlyGoal;
+import net.minecraft.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.entity.ai.goal.HurtByTargetGoal;
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntitySpawnPlacementRegistry;
+import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.CreatureEntity;
+import net.minecraft.entity.CreatureAttribute;
+import net.minecraft.client.renderer.model.ModelBox;
+import net.minecraft.client.renderer.entity.model.RendererModel;
+import net.minecraft.client.renderer.entity.model.EntityModel;
+import net.minecraft.client.renderer.entity.MobRenderer;
+
+import net.mcreator.laundrysmiscmod.itemgroup.TabLaundryBlocksItemGroup;
+import net.mcreator.laundrysmiscmod.item.DuneStoneIngotItem;
+import net.mcreator.laundrysmiscmod.LaundrysMiscModElements;
+
 @LaundrysMiscModElements.ModElement.Tag
 public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
-
 	public static EntityType entity = null;
-
 	public EntityWondererEntity(LaundrysMiscModElements instance) {
 		super(instance, 103);
-
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -17,12 +55,9 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
 						.build("entitywonderer").setRegistryName("entitywonderer");
-
 		elements.entities.add(() -> entity);
-
 		elements.items.add(() -> new SpawnEggItem(entity, -9815040, -10654, new Item.Properties().group(TabLaundryBlocksItemGroup.tab))
 				.setRegistryName("entitywonderer"));
-
 	}
 
 	@Override
@@ -37,13 +72,10 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-
 			biome.getSpawns(EntityClassification.AMBIENT).add(new Biome.SpawnListEntry(entity, 3, 3, 30));
 		}
-
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.NO_RESTRICTIONS,
 				Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, MobEntity::func_223315_a);
-
 		DungeonHooks.addDungeonMob(entity, 180);
 	}
 
@@ -57,11 +89,8 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 				}
 			};
 		});
-
 	}
-
 	public static class CustomEntity extends CreatureEntity {
-
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -70,20 +99,17 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 			super(type, world);
 			experienceValue = 5;
 			setNoAI(false);
-
 		}
 
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-
 			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 1));
 			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
 			this.goalSelector.addGoal(4, new RandomWalkingGoal(this, 2));
 			this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.8));
 			this.goalSelector.addGoal(6, new PanicGoal(this, 1.2));
-
 		}
 
 		@Override
@@ -119,7 +145,6 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
-
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(1);
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
@@ -128,9 +153,7 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
 				this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(8);
-
 		}
-
 	}
 
 	public static class Modelelsnako extends EntityModel {
@@ -141,40 +164,32 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 		private final RendererModel head;
 		private final RendererModel rarm;
 		private final RendererModel rfoot;
-
 		public Modelelsnako() {
 			textureWidth = 64;
 			textureHeight = 64;
-
 			all = new RendererModel(this);
 			all.setRotationPoint(0.0F, 24.0F, 0.0F);
 			setRotationAngle(all, 0.0F, 1.5708F, 0.0F);
-
 			torso = new RendererModel(this);
 			torso.setRotationPoint(0.0F, 0.0F, 0.0F);
 			all.addChild(torso);
 			torso.cubeList.add(new ModelBox(torso, 0, 0, -3.0F, -11.0F, -3.0F, 6, 10, 6, 0.0F, false));
-
 			lfoot = new RendererModel(this);
 			lfoot.setRotationPoint(-3.0F, -1.0F, -1.0F);
 			all.addChild(lfoot);
 			lfoot.cubeList.add(new ModelBox(lfoot, 18, 0, 0.0F, 0.0F, -2.0F, 9, 1, 3, 0.0F, false));
-
 			larm = new RendererModel(this);
 			larm.setRotationPoint(0.0F, -9.0F, -3.0F);
 			all.addChild(larm);
 			larm.cubeList.add(new ModelBox(larm, 24, 24, -1.0F, 0.0F, -1.0F, 3, 6, 1, 0.0F, false));
-
 			head = new RendererModel(this);
 			head.setRotationPoint(4.0F, -8.0F, 0.0F);
 			all.addChild(head);
 			head.cubeList.add(new ModelBox(head, 0, 20, -2.0F, -2.0F, -2.0F, 4, 4, 4, 0.0F, false));
-
 			rarm = new RendererModel(this);
 			rarm.setRotationPoint(0.0F, -9.0F, 3.0F);
 			all.addChild(rarm);
 			rarm.cubeList.add(new ModelBox(rarm, 16, 20, -1.0F, 0.0F, 0.0F, 3, 6, 1, 0.0F, false));
-
 			rfoot = new RendererModel(this);
 			rfoot.setRotationPoint(-3.0F, -1.0F, 1.0F);
 			all.addChild(rfoot);
@@ -196,5 +211,4 @@ public class EntityWondererEntity extends LaundrysMiscModElements.ModElement {
 			super.setRotationAngles(e, f, f1, f2, f3, f4, f5);
 		}
 	}
-
 }

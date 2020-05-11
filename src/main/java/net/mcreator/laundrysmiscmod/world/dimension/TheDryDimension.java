@@ -765,7 +765,7 @@ public class TheDryDimension extends LaundrysMiscModElements.ModElement {
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new OverworldGenSettings() {
 				public BlockState getDefaultBlock() {
-					return Blocks.CHISELED_SANDSTONE.getDefaultState();
+					return Blocks.SANDSTONE.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
@@ -804,7 +804,7 @@ public class TheDryDimension extends LaundrysMiscModElements.ModElement {
 			for (Biome biome : this.biomes) {
 				biome.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(new CaveWorldCarver(ProbabilityConfig::deserialize, 256) {
 					{
-						carvableBlocks = ImmutableSet.of(Blocks.CHISELED_SANDSTONE.getDefaultState().getBlock(),
+						carvableBlocks = ImmutableSet.of(Blocks.SANDSTONE.getDefaultState().getBlock(),
 								biome.getSurfaceBuilder().getConfig().getTop().getBlock(),
 								biome.getSurfaceBuilder().getConfig().getUnder().getBlock());
 					}

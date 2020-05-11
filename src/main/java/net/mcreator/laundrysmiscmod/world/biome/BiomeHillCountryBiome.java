@@ -92,16 +92,6 @@ public class BiomeHillCountryBiome extends LaundrysMiscModElements.ModElement {
 							new SphereReplaceConfig(Blocks.GRAVEL.getDefaultState(), 6, 2,
 									Lists.newArrayList(Blocks.DIRT.getDefaultState(), Blocks.GRASS_BLOCK.getDefaultState())),
 							Placement.COUNT_TOP_SOLID, new FrequencyConfig(2)));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.BAT, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.COW, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.DONKEY, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.RABBIT, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.FOX, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PIG, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CHICKEN, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SHEEP, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.HORSE, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SQUID, 15, 1, 5));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CREEPER, 15, 1, 5));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SKELETON, 15, 1, 5));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.ZOMBIE, 15, 1, 5));

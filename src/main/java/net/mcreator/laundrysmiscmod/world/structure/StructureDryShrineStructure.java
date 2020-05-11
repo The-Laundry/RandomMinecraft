@@ -23,6 +23,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.BlockState;
 
 import net.mcreator.laundrysmiscmod.world.dimension.TheDryDimension;
 import net.mcreator.laundrysmiscmod.LaundrysMiscModElements;
@@ -30,9 +32,9 @@ import net.mcreator.laundrysmiscmod.LaundrysMiscModElements;
 import java.util.Random;
 
 @LaundrysMiscModElements.ModElement.Tag
-public class StructureUnevenTempleStructure extends LaundrysMiscModElements.ModElement {
-	public StructureUnevenTempleStructure(LaundrysMiscModElements instance) {
-		super(instance, 101);
+public class StructureDryShrineStructure extends LaundrysMiscModElements.ModElement {
+	public StructureDryShrineStructure(LaundrysMiscModElements instance) {
+		super(instance, 104);
 	}
 
 	@Override
@@ -44,26 +46,30 @@ public class StructureUnevenTempleStructure extends LaundrysMiscModElements.ModE
 				int ck = pos.getZ();
 				DimensionType dimensionType = iworld.getDimension().getType();
 				boolean dimensionCriteria = false;
-				if (dimensionType == DimensionType.OVERWORLD)
-					dimensionCriteria = true;
 				if (dimensionType == TheDryDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 1000) {
+				if ((random.nextInt(1000000) + 1) <= 10000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16) + 8;
 						int k = ck + random.nextInt(16) + 8;
-						int j = iworld.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
-						j += random.nextInt(50) + 16;
+						int j = iworld.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
+						j -= 1;
+						BlockState blockAt = iworld.getBlockState(new BlockPos(i, j, k));
+						boolean blockCriteria = false;
+						if (blockAt.getBlock() == Blocks.SAND.getDefaultState().getBlock())
+							blockCriteria = true;
+						if (!blockCriteria)
+							continue;
 						Template template = ((ServerWorld) iworld.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("laundrysmiscmod", "uneventemple"));
+								.getTemplateDefaulted(new ResourceLocation("laundrysmiscmod", "dry_shrine"));
 						if (template == null)
 							return false;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i, j + 40, k);
+						BlockPos spawnTo = new BlockPos(i, j + -1, k);
 						template.addBlocksToWorldChunk(iworld, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random)
 								.setMirror(mirror).setChunk((ChunkPos) null).setIgnoreEntities(false));
 					}
@@ -73,19 +79,11 @@ public class StructureUnevenTempleStructure extends LaundrysMiscModElements.ModE
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("laundrysmiscmod:biomehillcountry")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("laundrysmiscmod:biomehauntedhills")))
-				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("desert")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("beach")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("desert_hills")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.addFeature(GenerationStage.Decoration.RAW_GENERATION,
+			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES,
 					Biome.createDecoratedFeature(feature, IFeatureConfig.NO_FEATURE_CONFIG, Placement.NOPE, IPlacementConfig.NO_PLACEMENT_CONFIG));
 		}
 	}

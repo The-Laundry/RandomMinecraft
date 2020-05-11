@@ -32,7 +32,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.SANDSTONE#1"
+      "value": "Blocks.SANDSTONE#0"
     },
     "secondaryFillerBlock": {
       "value": "CUSTOM:BlockLimestone"
