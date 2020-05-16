@@ -1006,6 +1006,52 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DirtArmor",
+      "type": "armor",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DirtArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DirtArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DirtArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DirtArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1034,12 +1080,14 @@
       "item.laundrysmiscmod.rootpickaxe": "Root Pickaxe",
       "item.laundrysmiscmod.fossilepickaxe": "Fossile Pickaxe",
       "item.laundrysmiscmod.fossileshovel": "Fossile Shovel",
+      "item.laundrysmiscmod.dirtarmorbody": "Dirt Chestplate",
       "item.laundrysmiscmod.itemarmorboots": "Fossile Boots",
       "item.laundrysmiscmod.rootarmorboots": "Root Boots",
       "block.laundrysmiscmod.dunestoneore": "DuneStone Ore",
       "item.laundrysmiscmod.rootarmorhelmet": "Root Helmet",
       "item.laundrysmiscmod.thedry": "Dry Key",
       "item.laundrysmiscmod.fossileaxe": "Fossile Axe",
+      "item.laundrysmiscmod.dirtarmorhelmet": "Dirt Helmet",
       "block.laundrysmiscmod.rootoreblock": "Block of Root",
       "block.laundrysmiscmod.rootore": "Root",
       "entity.laundrysmiscmod.entitywonderer": "Entity Wonderer",
@@ -1052,6 +1100,7 @@
       "item.laundrysmiscmod.dryranger": "Dry Ranger",
       "item.laundrysmiscmod.dunehoe": "Dune Hoe",
       "biome.laundrysmiscmod.biomehauntedhills": "Haunted Hills",
+      "item.laundrysmiscmod.dirtarmorlegs": "Dirt Leggings",
       "block.laundrysmiscmod.blocklimepowder": "Lime Powder",
       "item.laundrysmiscmod.itemarmorlegs": "Fossile Leggings",
       "block.laundrysmiscmod.blockchiseledlimestone": "Chiseled Limestone Bricks",
@@ -1063,6 +1112,7 @@
       "item.laundrysmiscmod.itemarmorhelmet": "Fossile Helmet",
       "item.laundrysmiscmod.fossilesword": "Fossile Sword",
       "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
+      "item.laundrysmiscmod.dirtarmorboots": "Dirt Boots",
       "item.laundrysmiscmod.rootarmorbody": "Root Chestplate",
       "item.laundrysmiscmod.dunepickaxe": "Dune Pickaxe",
       "block.laundrysmiscmod.blocklimestonebrickslab": "Limestone Brick Slab",
