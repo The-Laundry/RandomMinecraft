@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "laundrysmiscmod:blocks/cursed_sapling",
+    "particle": "laundrysmiscmod:blocks/cursed_sapling"
+  }
+}

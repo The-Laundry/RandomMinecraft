@@ -1052,27 +1052,223 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "BlockPetrifiedLog",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockCursedLeaves",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockCursedTreeSpawner",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockCursedSapling",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ItemCursedSaplingRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemCursedSapling",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockCursedSaplingNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockCursedSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockCursedTreeSpawnerBlockAdded",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StructureCursedTreeSpawnerOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StructureCursedTree1",
+      "type": "structure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StructureCursedTree2",
+      "type": "structure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.laundrysmiscmod.dunearmorbody": "Dune Chestplate",
       "block.laundrysmiscmod.dunestoneoreblock": "Block of DuneStone",
+      "item.laundrysmiscmod.dunearmorbody": "Dune Chestplate",
       "item.laundrysmiscmod.duneaxe": "Dune Axe",
-      "block.laundrysmiscmod.blockfossileblock": "Fossile Block",
       "item.laundrysmiscmod.dunearmorlegs": "Dune Leggings",
+      "block.laundrysmiscmod.blockfossileblock": "Fossile Block",
       "item.laundrysmiscmod.dunestoneingot": "DuneStone",
       "item.laundrysmiscmod.itemdrykey": "Dry Key",
       "item.laundrysmiscmod.rootaxe": "Root Axe",
       "block.laundrysmiscmod.blocklimestonebricks": "Block Limestone Bricks",
       "item.laundrysmiscmod.rootshovel": "Root Shovel",
       "block.laundrysmiscmod.blocklimestonechunks": "Limestone Chunks",
-      "entity.laundrysmiscmod.livingentitycrawler": "Crawler",
-      "key.mcreator.keybindboost": "Boost",
-      "item.laundrysmiscmod.itemfossilefragment": "Fossile Fragment",
       "item.laundrysmiscmod.dunesword": "Dune Sword",
+      "item.laundrysmiscmod.itemfossilefragment": "Fossile Fragment",
+      "key.mcreator.keybindboost": "Boost",
+      "entity.laundrysmiscmod.livingentitycrawler": "Crawler",
       "biome.laundrysmiscmod.biomehillcountry": "Hill Country",
       "itemGroup.tabthelaundrytools": "The_Laundry Tools",
       "item.laundrysmiscmod.dunearmorboots": "Dune Boots",
@@ -1097,11 +1293,14 @@
       "item.laundrysmiscmod.rootingot": "Root",
       "itemGroup.tabtabthelaundryarmour": "Tab The Laundry Combat",
       "item.laundrysmiscmod.itemarmorbody": "Fossile Chestplate",
+      "item.laundrysmiscmod.itemcursedsapling": "Cursed Sapling",
       "item.laundrysmiscmod.dryranger": "Dry Ranger",
       "item.laundrysmiscmod.dunehoe": "Dune Hoe",
+      "block.laundrysmiscmod.blockcursedtreespawner": "Cursed Tree Spawner",
       "biome.laundrysmiscmod.biomehauntedhills": "Haunted Hills",
       "item.laundrysmiscmod.dirtarmorlegs": "Dirt Leggings",
       "block.laundrysmiscmod.blocklimepowder": "Lime Powder",
+      "block.laundrysmiscmod.blockcursedleaves": "Cursed Leaves",
       "item.laundrysmiscmod.itemarmorlegs": "Fossile Leggings",
       "block.laundrysmiscmod.blockchiseledlimestone": "Chiseled Limestone Bricks",
       "item.laundrysmiscmod.livingentitycrawler": "Crawler Spawn Egg",
@@ -1111,12 +1310,14 @@
       "item.laundrysmiscmod.dunearmorhelmet": "Dune Helmet",
       "item.laundrysmiscmod.itemarmorhelmet": "Fossile Helmet",
       "item.laundrysmiscmod.fossilesword": "Fossile Sword",
+      "block.laundrysmiscmod.blockcursedsapling": "Block Cursed Sapling",
       "block.laundrysmiscmod.blocklimestonebrickwall": "Limestone Brick Wall",
       "item.laundrysmiscmod.dirtarmorboots": "Dirt Boots",
       "item.laundrysmiscmod.rootarmorbody": "Root Chestplate",
       "item.laundrysmiscmod.dunepickaxe": "Dune Pickaxe",
       "block.laundrysmiscmod.blocklimestonebrickslab": "Limestone Brick Slab",
       "itemGroup.tabtablaundryblocks": "Laundry\u0027s Blocks",
+      "block.laundrysmiscmod.blockpetrifiedlog": "Petrified Log",
       "item.laundrysmiscmod.rootarmorlegs": "Root Leggings",
       "block.laundrysmiscmod.blocklimestonebrickstairs": "Limestone Brick Stairs",
       "item.laundrysmiscmod.rootsword": "Root Sword"

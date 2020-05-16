@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "laundrysmiscmod:blocks/petrified_log_top",
+    "up": "laundrysmiscmod:blocks/petrified_log_top",
+    "north": "laundrysmiscmod:blocks/petrified_log",
+    "east": "laundrysmiscmod:blocks/petrified_log",
+    "south": "laundrysmiscmod:blocks/petrified_log",
+    "west": "laundrysmiscmod:blocks/petrified_log",
+    "particle": "laundrysmiscmod:blocks/petrified_log_top"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "laundrysmiscmod:block/blockpetrifiedlog"
+    },
+    "facing=north": {
+      "model": "laundrysmiscmod:block/blockpetrifiedlog"
+    },
+    "facing=east": {
+      "model": "laundrysmiscmod:block/blockpetrifiedlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "laundrysmiscmod:block/blockpetrifiedlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "laundrysmiscmod:block/blockpetrifiedlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "laundrysmiscmod:block/blockpetrifiedlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
